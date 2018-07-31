@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
+</head>
+<body>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+
+</body>
+</html>
+<script type="text/javascript">
+	var arr=$("div");
+	// $.each(arr,function(index,item){
+	// 	console.log(item);
+	// });
+	var a1=new Array();
+	a1.slice.apply(arr).forEach(function(item,index){
+		console.log(item);
+	})
+</script>
